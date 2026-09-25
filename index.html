@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="SI CHI · HAVEN — 그대들을 위한 안식처, 하루의 시작과 끝">
+  <meta name="theme-color" content="#151515">
+  <title>SI CHI · HAVEN · 🦝</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;1,500;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="welcome-overlay" id="welcome-overlay" role="dialog" aria-modal="true" aria-label="Haven 환영 메시지">
+    <div class="welcome-overlay-inner">
+      <p class="welcome-mark">𖤐 SI CHI · HAVEN · 🦝</p>
+      <p class="welcome-message">“내 사람 맞아 · 와줘서 고마워”</p>
+      <p class="welcome-sub">조용히, 당신을 위한 안식처로</p>
+      <button class="welcome-close" id="welcome-close" type="button">ENTER HAVEN ↗</button>
+    </div>
+  </div>
+  <audio id="haven-audio" preload="auto" loop>
+    <source src="haven-bgm.mp3" type="audio/mpeg">
+  </audio>
+  <button class="sound-toggle" id="sound-toggle" type="button" aria-label="배경음악 켜기/끄기" aria-pressed="false">♫ SOUND OFF</button>
+
+  <header class="topbar">
+    <a class="brand" href="#home" aria-label="SI CHI HAVEN 홈">SI CHI · HAVEN · 🦝</a>
+    <button class="menu-toggle" type="button" aria-label="메뉴 열기" aria-expanded="false" aria-controls="site-nav">☰</button>
+    <nav id="site-nav" class="site-nav" aria-label="주요 메뉴">
+      <a href="#profile">PROFILE</a>
+      <a href="#rules">RULES</a>
+      <a href="#fam">FAM</a>
+      <a href="#secret">SECRET</a>
+      <a href="#history">HISTORY</a>
+    </nav>
+  </header>
+
+  <main id="home">
+    <section class="hero" aria-labelledby="hero-title">
+      <p class="eyebrow">𝑯ྉ_시치 · 🦝 SPOONRadio</p>
+      <h1 id="hero-title">Haven <span>𖤐</span></h1>
+      <p class="hero-lead">그대들을 위한 안식처,<br>하루의 시작과 끝</p>
+      <a class="enter-button" href="https://www.spooncast.net/kr/@sicat?utm_source=spoon_share&amp;utm_medium=referral&amp;utm_campaign=profile_share&amp;utm_content=10324294&amp;utm_term=10324294&amp;ts=1790015506889" target="_blank" rel="noopener noreferrer">ENTER HAVEN ↗</a>
+      <p class="scroll-note">SCROLL TO EXPLORE <span>↓</span></p>
+    </section>
+
+    <section id="welcome" class="section intro">
+      <p class="eyebrow">𖤐 WELCOME TO HAVEN</p>
+      <h2>Haven</h2>
+      <p>그대들을 위한 안식처, 하루의 시작과 끝<br>따스한 온기를 더하는 이곳 ‘Haven’ 입니다.</p>
+      <blockquote>“내 사람 맞아 · 와줘서 고마워”</blockquote>
+      <small>SI CHI / HAVEN / 🦝 / 아무도 몰래</small>
+    </section>
+
+    <section id="profile" class="section split">
+      <div><p class="eyebrow">𖤐 MAIN PROFILE</p><h2>SICHI<br>MAIN PROFILE</h2><p class="muted">시치 메인 프로필</p></div>
+      <div class="content"><h3>𝐄𝐚𝐫𝐥𝐲 ??? ｜ 𝐃𝐉 시치 ᩚ</h3><p class="quote">/silent 곁에있어줘</p><p>나를 좋아해주는 사람이<br>제일 예뻐 보이거든</p><p>이걸 읽고있다면 내 사람 맞아 · 와줘서 고마워</p><div class="raccoon" aria-hidden="true">🦝</div></div>
+    </section>
+
+    <section id="rules" class="section">
+      <p class="eyebrow">𖤐 PLEASE KEEP THIS SPACE WARM</p><h2>RULES</h2>
+      <div class="rules">
+        <article><h3>⌜ 팬 취소는 신중하게 ⌟</h3><p>한 번 맺은 인연은 소중하게, 오래 함께해요.</p></article>
+        <article><h3>⌜ 비난 · 욕설 금지 ⌟</h3><p>서로 존중하는 편안한 공간을 지켜주세요.</p></article>
+        <article><h3>⌜ 과한 대화 · 언급 자제 ⌟</h3><p>이 방송의 주인공은 시치입니다.<br>디제이도 청취자도 소외되지 않게.</p></article>
+        <article><h3>⌜ 컨텐츠 제의 · 문의 ⌟</h3><p>오픈톡과 팬보드를 통해 전달해주세요.</p></article>
+        <article><h3>⌜ 있을 때 잘해주세요 ⌟</h3><p>서로의 시간을 소중하게.</p></article>
+      </div>
+    </section>
+
+    <section id="fam" class="section fam-section">
+      <div class="fam-deco fam-deco-top" aria-hidden="true">✦</div>
+      <div class="fam-copy">
+        <p class="eyebrow">✧ OUR LITTLE CIRCLE</p>
+        <h2>SICHIGUL FAM<span class="fam-heart">♡</span></h2>
+        <p class="muted">시치굴 •̀㉦•́</p>
+        <div class="names" aria-label="시치굴 팬들">
+          <span>레브,</span><span>이단,</span><span>흑백,</span><span>끼끼,</span><span>아옹,</span><span>민,</span><span>Bell,</span><span>지녁,</span><span>망이,</span><span>연,</span><span>담,</span><span>유월,</span><span>SA.E,</span><span>올이,</span><span>CODA𝄌,</span><span>하리,</span><span>art,</span><span>도다미,</span><span>냄군</span>
+        </div>
+      </div>
+      <div class="fam-signature" aria-hidden="true">Sichigul</div>
+      <div class="fam-deco fam-deco-bottom" aria-hidden="true">SI CHI · HAVEN <span></span> ✧</div>
+    </section>
+
+    <section id="secret" class="section split">
+      <div><p class="eyebrow">𖤐 UNDER THE SURFACE</p><h2>SECRET 🦝</h2><p class="muted">아무도 몰래</p></div>
+      <div class="content"><p>대본과 연기 디렉을 맡는다는 것 외의 정체는 비밀.<br>헤이븐 크루의 막내즈 아기라쿤.</p><p>가끔 불쑥 나타나 흔적만 남기고 사라지는 편.<br>소문은 전부 헛소문으로 정리한다.</p><p>오늘도 한마디만 남긴다.</p><blockquote>“아무도 몰래”</blockquote></div>
+    </section>
+
+    <section id="history" class="section">
+      <p class="eyebrow">𖤐 EVERY MOMENT LEAVES A TRACE</p><h2>HISTORY 🏆</h2><p class="muted">시치의 기록</p>
+      <ol class="history">
+        <li>25. 제 3회 your DJ</li><li>제 1회 황녀콘 최초 귀족영애</li><li>제 2회 황녀콘 MC · 심사위원</li><li>26. 제 1회 텔러 캔버스 우승</li><li>26. 제 2회 텔러 캔버스 MC · 심사위원</li><li>26. 제 1회 〃2프로〃 대회 준우승</li><li>26. 블라인더 팬 참가 · 연기자 참가</li><li>26. 제 1회 우아한 꽁독회 참가</li><li>26. 제 2회 우전 우승</li><li>26. 미연시 캐스트 여자 언급 1위</li><li>26. 제 1회 가면무도회 팬심 · 가면 · 퍼포먼스상 3관왕 · 종합 4위</li><li>26. 제 1회 마스커레이드 셀렉션 MC</li><li>26. 제 1회 꿀군-블더팬 연기자 MVP</li><li>26. 제 13회 목드컵 종합 5위</li><li>26. Voicemate formula intro</li><li>26. 제 1회 Voicemate 심사위원</li><li>26. 제 2회 V.G.T 구팀 우승</li><li>26. 제 가면무도회 최다 인기득표</li><li>26. 제 2회 가면무도회 Best JUDGE 1위</li><li>26. 제 1회 인코페 심사위원</li><li>26. 제 3회 가면무도회 캐스트 2등</li><li>26. 제 2회 League of Voice 최우수상 + 인기상</li><li>26. 제 4회 V.G.T (보갓텔) 종합 5위</li><li>26. 제 2회 스푼 인 코스프레 스태프</li><li>26. 제 2회 헤이븐 크루내전 우승팀</li><li>26. 제 3회 스푼 인 코스프레 스태프</li><li>26. 제 1회 코믹상</li><li>26. 제 3회 리그오브보이스 심사위원</li><li>26. 제 4회 리그오브보이스 히든심사위원</li><li>26. 제 1회 스푼 in 뮤직비디오</li><li>26. 제 4회 인코페 Judge픽 작품</li><li>26. 제 1회 가면무도회 스페셜 우승팀</li><li>26. 제 5회 가면무도회 스태프</li><li>26. 제 4회 보이스메이트 우승팀</li><li>26. 제 5회 인코페 심사위원</li><li>26. 제 1회 공작콘 심사위원</li>
+      </ol>
+      <li>26. 제1회 챔오보 최다 99표 인기 2등</li>
+    </section>
+  </main>
+
+  <footer><p>𖤐 S I C H I · H A V E N · 𖤐</p><p>오늘도, 아무도 몰래 애정할까요</p><a href="#home">BACK TO TOP ↑</a></footer>
+  <script>
+    const welcomeOverlay = document.getElementById('welcome-overlay');
+    const welcomeClose = document.getElementById('welcome-close');
+    const audio = document.getElementById('haven-audio');
+    const soundToggle = document.getElementById('sound-toggle');
+
+    const startMusic = async () => {
+      try {
+        audio.volume = 0.34;
+        await audio.play();
+        soundToggle.textContent = '♫ SOUND ON';
+        soundToggle.setAttribute('aria-pressed', 'true');
+      } catch (error) {
+        soundToggle.textContent = '♫ SOUND OFF';
+      }
+    };
+
+    const stopMusic = () => {
+      audio.pause();
+      soundToggle.textContent = '♫ SOUND OFF';
+      soundToggle.setAttribute('aria-pressed', 'false');
+    };
+
+    soundToggle.addEventListener('click', async () => {
+      if (audio.paused) await startMusic();
+      else stopMusic();
+    });
+
+    const closeWelcome = () => {
+      startMusic();
+      welcomeOverlay.classList.add('is-hidden');
+      window.setTimeout(() => welcomeOverlay.remove(), 750);
+    };
+
+    welcomeClose.addEventListener('click', closeWelcome);
+    window.setTimeout(closeWelcome, 4200);
+
+    const toggle = document.querySelector('.menu-toggle');
+    const nav = document.querySelector('.site-nav');
+    toggle.addEventListener('click', () => {
+      const isOpen = nav.classList.toggle('open');
+      toggle.setAttribute('aria-expanded', String(isOpen));
+      toggle.setAttribute('aria-label', isOpen ? '메뉴 닫기' : '메뉴 열기');
+    });
+    nav.querySelectorAll('a').forEach(link => link.addEventListener('click', () => {
+      nav.classList.remove('open');
+      toggle.setAttribute('aria-expanded', 'false');
+      toggle.setAttribute('aria-label', '메뉴 열기');
+    }));
+  </script>
+</body>
+</html>
